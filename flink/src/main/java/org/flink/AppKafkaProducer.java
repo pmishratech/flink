@@ -1,4 +1,4 @@
-package org.flink.flink;
+package org.flink;
 
 import java.util.Properties;
 
@@ -10,7 +10,7 @@ import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer010;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer010;
 import org.apache.flink.streaming.util.serialization.SimpleStringSchema;
 
-public class DataTransfer {
+public class AppKafkaProducer {
 
 	public static void main(String[] args) throws Exception {
 		// Properties for Kafka

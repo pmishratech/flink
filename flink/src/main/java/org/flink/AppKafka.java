@@ -1,4 +1,4 @@
-package org.flink.flink;
+package org.flink;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -19,12 +19,12 @@ import org.apache.flink.util.Collector;
  * Hello world!
  *
  */
-public class App {
+public class AppKafka {
 
 	private static final String KAFKA_BROKER = "localhost:9092";
 	private static final String KAFKA_INPUT_TOPIC = "test";
 	private static final String KAFKA_GROUP_ID = "g1";
-	private static final String CLASS_NAME = App.class.getSimpleName();
+	private static final String CLASS_NAME = AppKafka.class.getSimpleName();
 
 	public static void main(String[] args) throws Exception {
 

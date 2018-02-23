@@ -1,4 +1,4 @@
-package org.flink.flink;
+package org.flink;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -17,7 +17,7 @@ import org.apache.flink.streaming.util.serialization.SimpleStringSchema;
  * Hello world!
  *
  */
-public class ExternalisedApp {
+public class ExternalisedAppStateBackend {
 
 	public static void main(String[] args) throws IOException {
 		

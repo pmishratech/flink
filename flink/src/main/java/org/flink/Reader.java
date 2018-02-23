@@ -1,4 +1,4 @@
-package org.flink.flink;
+package org.flink;
 
 import java.io.IOException;
 import java.util.Properties;

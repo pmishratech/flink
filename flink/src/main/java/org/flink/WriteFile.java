@@ -1,4 +1,4 @@
-package org.flink.flink;
+package org.flink;
 
 import java.io.File;
 import java.io.FileWriter;
